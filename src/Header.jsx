@@ -11,7 +11,7 @@ export default function Header(){
     return(
         <div className="header--container">
             <header className="header">
-                <img className="header--logo"src="./pngs/Logo.png" />
+                <img className="header--logo"src="/pngs/Logo.png" />
                 <div className="baslik">
                      <h3>Welcome to <span className="typeweather">TypeWeather</span></h3>
                 </div>
