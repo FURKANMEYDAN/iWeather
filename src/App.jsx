@@ -19,19 +19,19 @@ function App() {
     switch (condition) {
       case 'clear':
       case 'sunny':
-        return `url(${isDay ? 'clear_day.png' : 'clear_night.png'})`;
+        return `url(${isDay ? './pngs/clear_day.png' : './pngs/clear_night.png'})`;
       case 'partly cloudy':
-        return `url(${isDay ? 'partly_cloudy_day.png' : 'partly_cloudy_night.png'})`;
+        return `url(${isDay ? './pngs/partly_cloudy_day.png' : './pngs/partly_cloudy_night.png'})`;
       case 'cloudy':
       case 'overcast':
-        return `url(${isDay ? 'cloudy_day.png' : 'cloudy_night.png'})`;
+        return `url(${isDay ? './pngs/cloudy_day.png' : './pngs/cloudy_night.png'})`;
       case 'rain':
       case 'moderate rain':
       case 'light rain':
       case 'mist':
-        return `url(${isDay ? 'rainy_day.png' : 'rainy_night.png'})`;
+        return `url(${isDay ? './pngs/rainy_day.png' : './pngs/rainy_night.png'})`;
       case 'storm':
-        return `url(${isDay ? 'storm_day.png' : 'storm_night.png'})`;
+        return `url(${isDay ? './pngs/storm_day.png' : './pngs/storm_night.png'})`;
       default:
         return '';
     }
@@ -44,19 +44,19 @@ function App() {
     switch (condition) {
       case 'clear':
       case 'sunny':
-        return isDay ? 'clear_icon_day.png' : 'clear_icon_night.png';
+        return isDay ? './pngs/clear_icon_day.png' : './pngs/clear_icon_night.png';
       case 'partly cloudy':
-        return isDay ? 'partly_cloudy_icon_day.png' : 'partly_cloudy_icon_night.png';
+        return isDay ? './pngs/partly_cloudy_icon_day.png' : './pngs/partly_cloudy_icon_night.png';
       case 'cloudy':
       case 'overcast':
-        return isDay ? 'cloudy_icon_day.png' : 'cloudy_icon_night.png';
+        return isDay ? './pngs/cloudy_icon_day.png' : './pngs/cloudy_icon_night.png';
       case 'rain':
       case 'light rain':
         case 'moderate rain':
       case 'mist':
-        return isDay ? 'rainy_icon_day.png' : 'rainy_icon_night.png';
+        return isDay ? './pngs/rainy_icon_day.png' : './pngs/rainy_icon_night.png';
       case 'storm':
-        return isDay ? 'storm_icon_day.png' : 'storm_icon_night.png';
+        return isDay ? './pngs/storm_icon_day.png' : './pngs/storm_icon_night.png';
       default:
         return '';
     }
