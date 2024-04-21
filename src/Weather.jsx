@@ -1,7 +1,7 @@
 import React from 'react';
-import App from '/App';
+import App from './App';
 import { Link } from 'react-router-dom';
-import '/weather.css'
+import './weather.css'
 function Weather({ weatherData, getBackgroundImage, getIcon }) {
   const formatDate = (dateString) => {
     const date = new Date(dateString);

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Header from '/Header';
-import Weather from '/Weather';
-import '/index.css';
-import SearchBar from '/Searchbar';
+import Header from './Header';
+import Weather from './Weather';
+import './index.css';
+import SearchBar from './Searchbar';
 
 const WEATHER_API_KEY = "ede048b59ff34e4ab0251227240104";
 
