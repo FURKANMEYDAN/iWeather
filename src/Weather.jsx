@@ -62,7 +62,7 @@ function Weather({ weatherData, getBackgroundImage, getIcon }) {
           Daily Chance of Rain: <h4>{weatherData.chanceOfRain}%</h4>
         </h3>
       </div>
-      <a className='geributonu' href="/">geri</a>
+      <a className='geributonu' href="/">Back</a>
     </div>
 
 
