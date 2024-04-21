@@ -7,7 +7,7 @@
 
 body {
     font-family: "Nunito", sans-serif; 
-    background-image: url("./pngs/Background.png");
+    background-image: url("/pngs/Background.png");
     color: white;
     padding: 20px;
     display: flex;
