@@ -45,20 +45,20 @@ function Weather({ weatherData, getBackgroundImage, getIcon }) {
 
       <div className="weather-detail">
         <h3>
-          <img src="/pngs/humidity.png" alt="humidity" />
+          <img src="./pngs/humidity.png" alt="humidity" />
           Humidity: <h4>{weatherData.current.humidity}%</h4>
         </h3>
         
         <h3>
-          <img src="/pngs/windspeed.png" alt="wind-speed" />
+          <img src="./pngs/windspeed.png" alt="wind-speed" />
           Wind Speed: <h4>{weatherData.current.wind_kph} km/h</h4>
         </h3>
         <h3>
-          <img src="/pngs/sunny.png" alt="uv-index" />
+          <img src="./pngs/sunny.png" alt="uv-index" />
          UV Index:  <h4>  {weatherData.current.uv}</h4>
         </h3>
         <h3>
-          <img src="/pngs/poprain.png" alt="rain" />
+          <img src="./pngs/poprain.png" alt="rain" />
           Daily Chance of Rain: <h4>{weatherData.chanceOfRain}%</h4>
         </h3>
       </div>
