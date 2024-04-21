@@ -1,0 +1,52 @@
+.header--container {
+    text-align: center;
+    padding: 10px;
+}
+
+.header--logo {
+    max-width: 200px; 
+    margin-bottom: 5px; 
+    background-repeat: no-repeat;
+    
+}
+.baslik{
+    margin-top: 200px;
+}
+.typeweather {
+    color: #8FB2F5;
+    font-size: 1.2rem; 
+}
+
+.alt--baslik {
+    color: #BFBFD4;
+    margin-top: 10px;
+    margin-bottom: 50px; 
+    font-size: 1rem; 
+}
+@media (max-width: 768px) {
+    .header--container {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .header--logo {
+        max-width: 200px; 
+        margin-bottom: 5px; 
+        background-repeat: no-repeat;
+        
+    }
+    .baslik{
+        margin-top: 200px;
+    }
+    .typeweather {
+        color: #8FB2F5;
+        font-size: 1.2rem; 
+    }
+    
+    .alt--baslik {
+        color: #BFBFD4;
+        margin-top: 10px;
+        margin-bottom: 50px; 
+        font-size: 1rem; 
+    }
+}

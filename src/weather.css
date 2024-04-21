@@ -1,0 +1,140 @@
+
+.weather{
+    flex-direction: column;
+}
+.weather-info {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.back-link {
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.location{
+  margin-top: 20px;
+}
+.local--time{
+    padding: 20px;
+}
+.weather-detail{
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.weather-detail  h3{
+    display: flex;
+    color: #BFBFD4;
+    border-bottom: 1px solid #1C1C27;
+    justify-content: space-between;
+    padding: 15px  15px 0;
+    font-size: 15px;
+}
+
+.temperature--writing{
+    padding: 20px;
+    margin-top: 120px;
+    font-size: 45px;
+}
+.condition{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.geributonu{
+    background-color: #1E1E29;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}.geributonu :hover{
+    background-color: #6b8cc8;
+}
+.maxmin{
+   margin-left: 20px;
+   font-weight: 400px;
+}
+@media (max-width: 768px) {
+
+    .weather{
+        flex-direction: column;
+    }
+    .weather-info {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+    
+    .back-link {
+        margin-bottom: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .location{
+      margin-top: 20px;
+    }
+    .local--time{
+        padding: 20px;
+    }
+    .weather-detail{
+        margin-top: 20px;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 20px;
+    
+    }
+    .weather-detail  h3{
+        display: flex;
+        color: #BFBFD4;
+        border-bottom: 1px solid #1C1C27;
+        justify-content: space-between;
+        padding: 15px  15px 0;
+        font-size: 15px;
+    }
+    
+    .temperature--writing{
+        padding: 20px;
+        margin-top: 120px;
+        font-size: 45px;
+    }
+    .condition{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+    
+    .geributonu{
+        background-color: #1E1E29;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        list-style: none;
+        text-decoration: none;
+    }.geributonu :hover{
+        background-color: #6b8cc8;
+    }
+    .maxmin{
+       margin-left: 20px;
+       font-weight: 400px;
+    }
+}
